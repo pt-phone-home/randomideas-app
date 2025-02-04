@@ -1,6 +1,6 @@
 import axios from "axios";
 class IdeasApi {
-  #apiUrl = "http://localhost:8000/api/ideas";
+  #apiUrl = "/api/ideas";
   constructor() {}
   getIdeas() {
     return axios.get(this.#apiUrl);
